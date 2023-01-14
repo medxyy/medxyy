@@ -10,4 +10,4 @@ jobs:
         run: |
           curl --request GET \
           --url 'https://python-api-pi.vercel.app/api' \
-          --header 'Authorization: Bearer ${{ secrets.API_SECRET_KEY }}'
+          --header 'Authorization: Bearer ${{ secrets.MY_GITHUB_SECRET }}'
